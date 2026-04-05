@@ -13,7 +13,10 @@ Which customer segments are most likely to respond to marketing campaigns, and h
 
 ## Dataset
 
-The dataset includes customer demographics, income, spending across product categories, and past campaign responses.
+This project uses the **Customer Personality Analysis dataset** from Kaggle:  
+https://www.kaggle.com/datasets/imakash3011/customer-personality-analysis
+
+The data is stored locally as `marketing_campaign.csv` and includes customer demographics, income, spending across product categories, and past campaign responses.
 
 ## Data Preparation
 
@@ -63,3 +66,21 @@ A one-size-fits-all marketing approach is not effective. More targeted strategie
 
 ## Project Structure
 
+customer-targeting-marketing-analysis/
+│
+├── marketing_campaign.csv
+├── analysis.ipynb
+└── README.md
+
+## How to Run This Project
+
+1. Download the dataset from Kaggle (link above)  
+2. Place `marketing_campaign.csv` in the project folder  
+3. Open `analysis.ipynb` in Jupyter Notebook or VS Code  
+4. Run all cells  
+
+## Next Steps
+
+- Build a predictive model to estimate campaign response  
+- Explore additional features that influence customer engagement  
+- Apply clustering for deeper customer segmentation  
